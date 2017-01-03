@@ -1,0 +1,22 @@
+{
+  "name": "search",
+  "homepage": "https://github.com/gusced/Arbetsprov",
+  "authors": [
+    "gusced <gussstav@hotmail.com>"
+  ],
+  "description": "simple search",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1",
+    "normalize-css": "normalize.css#^5.0.0"
+  }
+}

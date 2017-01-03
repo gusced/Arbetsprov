@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="style/normalize.css" type="text/css" />
+    <link rel="stylesheet" href="style/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="style/search.css" type="text/css">    
+</head>
+<body>
+    <div id="top">
+        <img src="Images/logo.svg" alt="SEARQ - Logotype">
+    </div>
+    <div id="searchbox">
+        <img id="icon-magnifier" src="Images/search.svg" alt="Magnifier">
+        <input id="searchfield" placeholder="Search for a music artist..." type="text" />
+        <div id="search-results">
+            <ul>
+                
+            </ul>
+        </div>  <!--search-results  end -->
+    </div> <!--searchbox  end -->
+    
+    <div id="search-history" style="display: block;">
+        <table>
+            <tbody>
+                <tr>
+                    <td>The Birthday Massacre</td>
+                    <td>
+                        <small>2017-01-03 19:58</small>
+                    </td>
+                    <td><div></div></td>
+                </tr>              
+            </tbody>
+        </table>
+    </div> <!--search history end -->
+
+    <script type="text/javascript" src="script/jquery.min.js"></script>
+    <script type="text/javascript" src="script/search.js"></script>
+</body>
+</html>
